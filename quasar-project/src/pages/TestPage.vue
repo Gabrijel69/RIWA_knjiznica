@@ -1,13 +1,12 @@
 <template>
   <q-page class="flex flex-center">
-    <img
-      alt="Quasar logo"
-      src="~assets/cat.jpg"
-      width="100%"
-    />
+    <h1>Test Page</h1>
+
+    <div>{{poruka}}</div>
+
   </q-page>
 </template>
 
 <script setup>
-//
+const poruka = "Test page"
 </script>
