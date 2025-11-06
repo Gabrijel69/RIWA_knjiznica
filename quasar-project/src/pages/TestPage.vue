@@ -6,6 +6,7 @@
     <q-input color="purple-12" v-model="text1" label="item name" @keyup="log()">
     </q-input>
   </q-page>
+  
 </template>
 
 <script setup>
