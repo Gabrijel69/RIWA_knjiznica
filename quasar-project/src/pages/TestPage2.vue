@@ -34,7 +34,7 @@
 </template>
 
 <script setup>
-import ref from vue
+import {ref} from "vue"
 const naslov = 'Klimatske promjene'
 const autor = 'Tvoja stara'
 const lorem = 'bruh'
@@ -56,7 +56,6 @@ function save(){
   console.log("text: "+text.value)
 }
 
-let unread
 </script>
 
 <style lang="sass" scoped>
